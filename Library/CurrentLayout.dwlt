@@ -42,10 +42,17 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
+<<<<<<< HEAD
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 111
+=======
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 68
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +216,11 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 52
+=======
+  controlID: 69
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +244,11 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 53
+=======
+  controlID: 70
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,8 +267,13 @@ MonoBehaviour:
     y: 0
     width: 820
     height: 364
+<<<<<<< HEAD
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -327,20 +347,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Spritesheet
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Spritesheet
+=======
+    - Assets/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Admin\Documents\Tercer Semestre\Plataforma de Videojuegos\Proyecto_Unity\Dont
     Get Kill\proyecto-videojuego-movil-android-marcos-y-raul
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: f22a0000
     m_LastClickedID: 10994
     m_ExpandedIDs: 00000000ec290000f22a0000f82a0000f02b000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: c6290000
+    m_LastClickedID: 10694
+    m_ExpandedIDs: 00000000102800001c290000142a000000ca9a3bffffff7f
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +402,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ec290000f22a0000f82a0000f02b0000
+=======
+    m_ExpandedIDs: 0000000010280000162900001c290000142a0000
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -399,18 +437,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: LoadOnClick
+      m_OriginalName: LoadOnClick
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11442
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
@@ -486,9 +524,15 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: e22d0000
     m_LastClickedID: 11746
     m_ExpandedIDs: 22f8ffff40faffff00000000
+=======
+    m_SelectedIDs: 2a2a0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 5e9fffffb0a0ffffc8a1ffff42a8ffffc0faffff00000000e22b0000f42b0000
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -539,14 +583,24 @@ MonoBehaviour:
     height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 0
+=======
+  lastFramingTime: 554.986006631928
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0.5517967, y: 0.18968016, z: -0.06254862}
     speed: 2
     m_Value: {x: 0.5517967, y: 0.18968016, z: -0.06254862}
+=======
+    m_Target: {x: 1.8261029, y: 0.7747103, z: -9.900006}
+    speed: 2
+    m_Value: {x: 1.8261029, y: 0.7747103, z: -9.900006}
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -574,9 +628,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 16.250221
     speed: 2
     m_Value: 16.250221
+=======
+    m_Target: 11.971232
+    speed: 2
+    m_Value: 11.971232
+>>>>>>> 3960c729d0031684ed13e0c08606c9ba8e974761
   m_Ortho:
     m_Target: 1
     speed: 2
