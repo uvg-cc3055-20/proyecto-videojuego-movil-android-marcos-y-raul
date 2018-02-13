@@ -295,6 +295,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\LoadOnClick.cs" />
+    <Compile Include="Assets\Scripts\player1_controls.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Spritesheet\kenney_tankspack\License.txt" />
