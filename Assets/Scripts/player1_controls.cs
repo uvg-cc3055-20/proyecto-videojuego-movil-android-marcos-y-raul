@@ -1,30 +1,47 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player1_controls : MonoBehaviour {
-    float movimiento = 3f;
+public class player1_controls : MonoBehaviour
+{
+    private Rigidbody2D rb;
+    private float speed = 5f;
+    
+    public Transform balaSpawner;
+    public GameObject balaPrefab;
 
-	// Use this for initialization
-	void Start () {
-       
+    // Use this for initialization
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
     }
-	
-	// Update is called once per frame
-	void Update () {
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+    // Update is called once per frame
+    void Update()
+    {
+        if (GameController.instance.turno==true && GameController.instance.dead == true)
         {
-            this.transform.position += new Vector3(-1 * Time.deltaTime * movimiento, 0, 0);
+            playermove();
+            playerShooting();
         }
+        
+    }
+
+    public void playermove()
+    {
+        float movX = Input.acceleration.x;
+        rb.transform.Translate(Vector2.right * speed * movX * Time.deltaTime);
+    }
+
+    public void playerShooting()
+    {
+        //if (Input.GetKey("Fire1"))
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            this.transform.position += new Vector3(Time.deltaTime * movimiento, 0, 0);
+            Instantiate(balaPrefab, balaSpawner.position, balaSpawner.rotation);
         }
-        if (Input.GetKey(KeyCode.Space))
-        {
-        this.transform.position += new Vector3(0, 1.5f * Time.deltaTime * movimiento,  0);
-        }
-
     }
+
+    
+
 }
