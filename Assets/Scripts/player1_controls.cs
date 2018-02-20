@@ -41,7 +41,10 @@ public class player1_controls : MonoBehaviour
             Instantiate(balaPrefab, balaSpawner.position, balaSpawner.rotation);
         }
     }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameController.instance.dead = false;
+    }
 
-    
 
 }
