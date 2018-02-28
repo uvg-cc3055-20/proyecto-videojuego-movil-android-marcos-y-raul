@@ -7,6 +7,7 @@ TagManager:
   - obstaculo
   - bala
   - Jugador1
+  - Jugador2
   layers:
   - Default
   - TransparentFX

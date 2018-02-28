@@ -299,12 +299,15 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Boton.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Jugador2.cs" />
+    <Compile Include="Assets\Scripts\LoadOnClick.cs" />
     <Compile Include="Assets\Scripts\MovimientoBala.cs" />
+    <Compile Include="Assets\Scripts\MovimientoBala2.cs" />
     <Compile Include="Assets\Scripts\TouchPadController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\kenney_topdowntanksredux\License.txt" />
     <None Include="Assets\kenney_topdowntanksredux\Spritesheet\allSprites_default.xml" />
     <None Include="Assets\kenney_topdowntanksredux\Spritesheet\allSprites_retina.xml" />

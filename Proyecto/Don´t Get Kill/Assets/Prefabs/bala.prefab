@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 61834977417913522}
   - component: {fileID: 50461400484492002}
   - component: {fileID: 114976872398174576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bala
-  m_TagString: Untagged
+  m_TagString: bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,13 +36,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1956269168383986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -12.674686, y: 0.63373053, z: 0}
   m_LocalScale: {x: 1.4568623, y: 1.5971513, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!50 &50461400484492002
 Rigidbody2D:
   serializedVersion: 4
@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jugador: {fileID: 0}
-  velocidad: 20
-  vida_bala: 1
+  velocidad: 12
+  vida_bala: 2
 --- !u!212 &212830322395953574
 SpriteRenderer:
   m_ObjectHideFlags: 1

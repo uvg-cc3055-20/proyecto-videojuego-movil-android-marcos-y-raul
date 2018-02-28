@@ -304,8 +304,8 @@
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\kenney_topdowntanksredux\License.txt" />
     <None Include="Assets\kenney_topdowntanksredux\Spritesheet\allSprites_default.xml" />
     <None Include="Assets\kenney_topdowntanksredux\Spritesheet\allSprites_retina.xml" />

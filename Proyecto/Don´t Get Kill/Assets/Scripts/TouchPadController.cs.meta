@@ -1,11 +1,14 @@
 fileFormatVersion: 2
 guid: eb7cf84c7717903418632d66a3571f2a
-timeCreated: 1519762227
+timeCreated: 1519791150
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - balaSpawner: {instanceID: 0}
+  - balaPrefab: {instanceID: 0}
+  - deadTank: {fileID: 21300000, guid: 86fa1f6667babf1448d21c865d212c4d, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
